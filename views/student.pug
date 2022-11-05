@@ -1,0 +1,276 @@
+html
+	head
+		meta(charset='utf-8')
+		title Студент
+		link(rel="stylesheet", href="style.css")
+		style.
+			*,
+			*:before,
+			*:after{
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box; 
+			}
+			h2{
+				color:rgba(255,255,255,.8);
+				margin-left:12px;
+			}
+			body{
+				margin: 0;
+				height: 100vh;
+				font-weight: 100;
+				background: radial-gradient(#a23982,#1f1013);
+				-webkit-overflow-Y: hidden;
+				-moz-overflow-Y: hidden;
+				-o-overflow-Y: hidden;
+				overflow-y: hidden;
+				-webkit-animation: fadeIn 1 1s ease-out;
+				-moz-animation: fadeIn 1 1s ease-out;
+				-o-animation: fadeIn 1 1s ease-out;
+				animation: fadeIn 1 1s ease-out
+				font-family: 'Roboto', sans-serif;
+				font-size:38px;
+			}
+			.light {
+				position: absolute;
+				width: 0px;
+				opacity: .75;
+				background-color: white;
+				box-shadow: #e9f1f1 0px 0px 20px 2px;
+				opacity: 0;
+				top: 100vh;
+				bottom: 0px;
+				left: 0px;
+				right: 0px;
+				margin: auto;
+			}
+			.x1{
+				-webkit-animation: floatUp 4s infinite linear;
+				-moz-animation: floatUp 4s infinite linear;
+				-o-animation: floatUp 4s infinite linear;
+				animation: floatUp 4s infinite linear;
+				-webkit-transform: scale(1.0);
+				-moz-transform: scale(1.0);
+				-o-transform: scale(1.0);
+				transform: scale(1.0);
+			}
+			.x2{
+				-webkit-animation: floatUp 7s infinite linear;
+				-moz-animation: floatUp 7s infinite linear;
+				-o-animation: floatUp 7s infinite linear;
+				animation: floatUp 7s infinite linear;
+				-webkit-transform: scale(1.6);
+				-moz-transform: scale(1.6);
+				-o-transform: scale(1.6);
+				transform: scale(1.6);
+				left: 15%;
+			}
+			.x3{
+				-webkit-animation: floatUp 2.5s infinite linear;
+				-moz-animation: floatUp 2.5s infinite linear;
+				-o-animation: floatUp 2.5s infinite linear;
+				animation: floatUp 2.5s infinite linear;
+				-webkit-transform: scale(.5);
+				-moz-transform: scale(.5);
+				-o-transform: scale(.5);
+				transform: scale(.5);
+				left: -15%;
+			}
+			.x4{
+				-webkit-animation: floatUp 4.5s infinite linear;
+				-moz-animation: floatUp 4.5s infinite linear;
+				-o-animation: floatUp 4.5s infinite linear;
+				animation: floatUp 4.5s infinite linear;
+				-webkit-transform: scale(1.2);
+				-moz-transform: scale(1.2);
+				-o-transform: scale(1.2);
+				transform: scale(1.2);
+				left: -34%;
+			}
+			.x5{
+				-webkit-animation: floatUp 8s infinite linear;
+				-moz-animation: floatUp 8s infinite linear;
+				-o-animation: floatUp 8s infinite linear;
+				animation: floatUp 8s infinite linear;
+				-webkit-transform: scale(2.2);
+				-moz-transform: scale(2.2);
+				-o-transform: scale(2.2);
+				transform: scale(2.2);
+				left: -57%;
+			}
+			.x6{
+				-webkit-animation: floatUp 3s infinite linear;
+				-moz-animation: floatUp 3s infinite linear;
+				-o-animation: floatUp 3s infinite linear;
+				animation: floatUp 3s infinite linear;
+				-webkit-transform: scale(.8);
+				-moz-transform: scale(.8);
+				-o-transform: scale(.8);
+				transform: scale(.8);
+				left: -81%;
+			}
+			.x7{
+				-webkit-animation: floatUp 5.3s infinite linear;
+				-moz-animation: floatUp 5.3s infinite linear;
+				-o-animation: floatUp 5.3s infinite linear;
+				animation: floatUp 5.3s infinite linear;
+				-webkit-transform: scale(3.2);
+				-moz-transform: scale(3.2);
+				-o-transform: scale(3.2);
+				transform: scale(3.2);
+				left: 37%;
+			}
+			.x8{
+				-webkit-animation: floatUp 4.7s infinite linear;
+				-moz-animation: floatUp 4.7s infinite linear;
+				-o-animation: floatUp 4.7s infinite linear;
+				animation: floatUp 4.7s infinite linear;
+				-webkit-transform: scale(1.7);
+				-moz-transform: scale(1.7);
+				-o-transform: scale(1.7);
+				transform: scale(1.7);
+				left: 62%;
+			}
+			.x9{
+				-webkit-animation: floatUp 4.1s infinite linear;
+				-moz-animation: floatUp 4.1s infinite linear;
+				-o-animation: floatUp 4.1s infinite linear;
+				animation: floatUp 4.1s infinite linear;
+				-webkit-transform: scale(0.9);
+				-moz-transform: scale(0.9);
+				-o-transform: scale(0.9);
+				transform: scale(0.9);
+				left: 85%;
+			}
+			@-webkit-keyframes floatUp{
+				0%{top: 100vh; opacity: 0;}
+				25%{opacity: 1;}
+				50%{top: 0vh; opacity: .8;}
+				75%{opacity: 1;}
+				100%{top: -100vh; opacity: 0;}
+			}
+			@-moz-keyframes floatUp{
+				0%{top: 100vh; opacity: 0;}
+				25%{opacity: 1;}
+				50%{top: 0vh; opacity: .8;}
+				75%{opacity: 1;}
+				100%{top: -100vh; opacity: 0;}
+			}
+				@-o-keyframes floatUp{
+				0%{top: 100vh; opacity: 0;}
+				25%{opacity: 1;}
+				50%{top: 0vh; opacity: .8;}
+				75%{opacity: 1;}
+				100%{top: -100vh; opacity: 0;}
+			}
+			@keyframes floatUp{
+				0%{top: 100vh; opacity: 0;}
+				25%{opacity: 1;}
+				50%{top: 0vh; opacity: .8;}
+				75%{opacity: 1;}
+				100%{top: -100vh; opacity: 0;}
+			}
+				
+			form{
+				position:relative;
+				margin: 50px auto;
+				width: 380px;
+				height: auto;
+				margin-top:15%;
+			}
+			input{
+				padding: 16px;
+				border-radius:7px;
+				border:0px;
+				background: rgba(255,255,255,.2);
+				display: block;
+				margin: 15px;
+				width: 300px;  
+				color:white;
+				font-size:18px;
+				height: 54px;
+			}
+			input:focus{
+				outline-color: rgba(0,0,0,0);
+				background: rgba(255,255,255,.95);
+				color: #e74c3c;
+			}
+			button{
+				float:right;
+				height: 121px;
+				width: 50px;
+				border: 0px;
+				background: #e74c3c;
+				border-radius:7px;
+				padding: 10px;
+				color:white;
+				font-size:22px;
+			}
+		
+			.inputUserIcon{
+				position:absolute;
+				top:68px;
+				right: 80px;
+				color:white;
+			}
+			.inputPassIconP{
+				position:absolute;
+				top:136px;
+				right: 80px;
+				color:white;
+			}
+			input::-webkit-input-placeholder{
+				color: white;
+			}
+			input:focus::-webkit-input-placeholder{
+				color: #e74c3c;	
+			}
+			@media screen and (max-width: 500px) {
+				body {
+					height:450px;
+				}
+				form{
+					margin-top:50%;
+				 }
+				 
+
+			}
+			@media screen and (max-width: 390px) {
+				form{
+					width:280px;
+				}
+				input{
+					width:180px;
+				}
+
+			}
+
+	body
+		
+		.light.x1
+		.light.x1
+		.light.x2
+		.light.x3
+		.light.x4
+		.light.x5
+		.light.x6
+		.light.x7
+		.light.x8
+		.light.x9
+		if student != null
+			form(action="/student/"+student.id method="POST")
+				h2
+					span.entypo-login
+						i.fa.fa-sign-in
+					|VkStyle	
+				button.submit
+					span.entypo-lock
+						i.fa.fa-loc
+				span.entypo-user.inputUserIcon
+					i.fa.fa-user
+				input.user(name="firstname" value=student.firstname)
+				span.entypo-key.inputPassIcon
+					i.fa.fa-key
+				input.pass(name="lastname" value=student.lastname type='password' placeholder='password')
+		else
+				div Студент с таким id не найден
